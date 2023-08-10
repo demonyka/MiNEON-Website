@@ -19,7 +19,7 @@ if( $ndata == '1'){
     $ndata = "$ndata дней"; 
 } elseif( substr($ndata, -2) == '01'){ 
     $ndata = "$ndata день";	
-} elseif( substr($ndata, -1) == '2'){ Z
+} elseif( substr($ndata, -1) == '2'){
     $ndata = "$ndata дня";
 } elseif( substr($ndata, -1) == '3'){ 
     $ndata = "$ndata дня";	
